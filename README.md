@@ -26,3 +26,21 @@ Página de bienvenida al usuario que inicia sesión. Funciones:
 
 Esta página cierra la sesión del usuario. Sus funciones:
 * Imprime la variable de sesión ```nombre``` pero al haberse cerrado la sesión se borraron las variables por lo que no mostrará alguna salida.
+
+
+# Intrucciones
+
+Entrar a la carpeta del index.php:
+```zsh
+cd php_sesiones 
+```
+
+Iniciar el servidor php:
+```zsh
+php -S localhost:1989 '/workspaces/awi40/php_sesiones/index.php'
+```
+
+Reiniciar el servidor:
+```zsh
+php -S localhost:1989 -t /workspaces/awi40/php_sesiones
+```
