@@ -13,6 +13,7 @@ if (!isset($_SESSION["valido"]) || $_SESSION["valido"] !== true) {
 <body>
     <h1>¡Holaa <?php echo $_SESSION["nombre"]; ?>!</h1>
     <p> <?php echo $_SESSION["question"]; ?></p>
-    <a href= "borrar.php" > Cerrar Sesión</a>
+    <a href= "cerrar.php" > Cerrar Sesión</a>
+    <p>Sesión: <?php print_r($_SESSION); ?>
 </body>
 </html>

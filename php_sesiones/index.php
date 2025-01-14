@@ -4,6 +4,8 @@ session_start();
 // Credenciales de usuario
 $usuario_valido = "eddy";
 $password_valida = "password";
+$usuario_nivel = "pro";
+$usuario_status = "activo";
 
 // Verificar si se han enviado las credenciales
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
