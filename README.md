@@ -30,7 +30,7 @@ Esta página cierra la sesión del usuario. Sus funciones:
 
 # Intrucciones
 
-Entrar a la carpeta del index.php:
+### Entrar a la carpeta del index.php:
 Con sessions
 ```zsh
 cd php_sesiones
@@ -40,7 +40,7 @@ Con cookies
 cd php_cookies
 ```
 
-Iniciar el servidor php:
+### Iniciar el servidor php:
 Con sessions
 ```zsh
 php -S localhost:1989 '/workspaces/awi40/php_sesiones/index.php'
@@ -50,7 +50,7 @@ Con cookies
 php -S localhost:1989 '/workspaces/awi40/php_cookies/index.php'
 ```
 
-Reiniciar el servidor:
+### Reiniciar el servidor:
 Con sessions
 ```zsh
 php -S localhost:1989 -t /workspaces/awi40/php_sesiones
